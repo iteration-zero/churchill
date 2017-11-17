@@ -1,0 +1,10 @@
+language: csharp
+dist: trusty
+sudo: required
+mono: none
+# dotnet: 1.0.0-preview3-004056
+dotnet: 2.0.0
+before_script:
+  - chmod a+x ./build.sh
+script:
+  - ./build.sh --quiet verify
