@@ -10,6 +10,7 @@
       <e p="code" t="Include">
         <e p="Api" t="IncludeRecursive">
           <e p="Controllers" t="Include">
+            <e p="CigarsController.cs" t="Include" />
             <e p="ValuesController.cs" t="Include" />
           </e>
           <e p="IterationZero.Churchill.WebApi.csproj" t="IncludeRecursive" />
